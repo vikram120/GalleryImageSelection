@@ -19,17 +19,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DiX-PE-HRP">
                                 <rect key="frame" x="81" y="355" width="231" height="200"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Image Here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lH0-4g-KoS">
-                                        <rect key="frame" x="58.33333333333335" y="95" width="122.66666666666669" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="Aik-Fw-aKM"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UOa-dt-dYX">
-                                        <rect key="frame" x="0.0" y="0.0" width="231" height="200"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UOa-dt-dYX">
+                                        <rect key="frame" x="0.0" y="1.6666666666666572" width="231" height="197"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="oFC-Dr-1j2"/>
                                         </constraints>
@@ -37,13 +28,9 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="lH0-4g-KoS" secondAttribute="bottom" constant="84" id="6Wt-65-T2a"/>
                                     <constraint firstAttribute="bottom" secondItem="UOa-dt-dYX" secondAttribute="bottom" id="NQd-Zd-iGR"/>
-                                    <constraint firstItem="lH0-4g-KoS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DiX-PE-HRP" secondAttribute="leading" constant="20" symbolic="YES" id="Ncm-JN-ecc"/>
                                     <constraint firstItem="UOa-dt-dYX" firstAttribute="leading" secondItem="DiX-PE-HRP" secondAttribute="leading" id="WjH-N3-vgu"/>
-                                    <constraint firstItem="lH0-4g-KoS" firstAttribute="top" secondItem="DiX-PE-HRP" secondAttribute="top" constant="95" id="fAB-u8-c5o"/>
                                     <constraint firstAttribute="trailing" secondItem="UOa-dt-dYX" secondAttribute="trailing" id="hcd-fZ-3yY"/>
-                                    <constraint firstAttribute="trailing" secondItem="lH0-4g-KoS" secondAttribute="trailing" constant="50" id="nuI-hL-mOL"/>
                                     <constraint firstItem="UOa-dt-dYX" firstAttribute="top" secondItem="DiX-PE-HRP" secondAttribute="top" id="oeQ-ke-5D7"/>
                                 </constraints>
                             </view>
@@ -103,6 +90,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="photo" catalog="system" width="128" height="93"/>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
